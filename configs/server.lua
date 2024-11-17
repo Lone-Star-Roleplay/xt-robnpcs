@@ -1,7 +1,7 @@
 return {
     payOut = {              -- Payout min/max
-        min = 10,
-        max = 20
+        min = 50,
+        max = 250,
     },
     payOutChance = {        -- Chance player receives cash
         min = 70,
@@ -13,7 +13,11 @@ return {
     },
     lootableItems = {       -- Items player can loot
         { item = 'rolex', min = 1, max = 2 },
-        { item = 'phone', min = 1, max = 2 }
+        { item = 'phone', min = 1, max = 2 },
+        { item = 'goldchain', min = 1, max = 2 },
+        { item = 'diamond_ring', min = 1, max = 2 },
+        { item = '10kgoldchain', min = 1, max = 2 },
+        { item = 'tablet', min = 1, max = 2 },
     },
     policeJobs = {
         'police',

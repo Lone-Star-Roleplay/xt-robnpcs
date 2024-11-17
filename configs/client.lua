@@ -1,5 +1,5 @@
 return {
-    useInteract = false,                                    -- Use interact or ox/qb target (https://github.com/darktrovx/interact)
+    useInteract = true,                                    -- Use interact or ox/qb target (https://github.com/darktrovx/interact)
     targetDistance = 20,                                    -- Max distance ped reacts to you aiming at them
     blacklistedJobs = {                                     -- Jobs not allowed to rob locals
         'police',
@@ -20,7 +20,22 @@ return {
     },
     pedWeapons = {                                          -- Weapons ped might have
         'WEAPON_KNIFE',
-        'WEAPON_BAT'
+        'WEAPON_DESERTEAGLESILVER',
+        'WEAPON_SIGSAUERM17',
+        'WEAPON_GLOCK19X',
+        'WEAPON_GLOCK19GEN4',
+        'WEAPON_COMBATPISTOL',
+        'WEAPON_PISTOL',
+        'WEAPON_PISTOL50',
+        'WEAPON_PISTOL_MK2',
+        'WEAPON_REVOLVER',
+        'WEAPON_REVOLVER_MK2',
+        'WEAPON_SNSPISTOL',
+        'WEAPON_SNSPISTOL_MK2',
+        'WEAPON_P30L',
+        'WEAPON_CERAMICPISTOL',
+        'WEAPON_PISTOLXM3',
+        'WEAPON_VINTAGEPISTOL',
     },
     copsChance = {                                          -- Chance police are called
         min = 80,
@@ -28,7 +43,22 @@ return {
     },
     allowedWeapons = {                                      -- Weapons allowed to rob peds
         'WEAPON_KNIFE',
-        'WEAPON_PISTOL'
+        'WEAPON_DESERTEAGLESILVER',
+        'WEAPON_SIGSAUERM17',
+        'WEAPON_GLOCK19X',
+        'WEAPON_GLOCK19GEN4',
+        'WEAPON_COMBATPISTOL',
+        'WEAPON_PISTOL',
+        'WEAPON_PISTOL50',
+        'WEAPON_PISTOL_MK2',
+        'WEAPON_REVOLVER',
+        'WEAPON_REVOLVER_MK2',
+        'WEAPON_SNSPISTOL',
+        'WEAPON_SNSPISTOL_MK2',
+        'WEAPON_P30L',
+        'WEAPON_CERAMICPISTOL',
+        'WEAPON_PISTOLXM3',
+        'WEAPON_VINTAGEPISTOL',
     },
 
     dispatch = function(coords)
